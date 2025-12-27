@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: none !important;
+}
+
+* {
+  cursor: none !important;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-shimmer-slide {
+    animation: shimmer-slide 3s ease-in-out infinite;
+  }
+
+  .animate-spin-slow {
+    animation: spin 3s linear infinite;
+  }
+
+  .animate-border-flow {
+    animation: border-flow 3s linear infinite;
+  }
+
+  .animate-border-orbit {
+    animation: border-orbit 8s linear infinite;
+  }
+
+  .bg-gradient-conic {
+    background: conic-gradient(
+      from calc(270deg - 45deg),
+      transparent 0,
+      rgba(255, 255, 255, 0.3) 90deg,
+      transparent 90deg
+    );
+  }
+}
+
+@keyframes shimmer-slide {
+  0%, 100% {
+    transform: translateX(-50%) translateY(-50%);
+  }
+  50% {
+    transform: translateX(50%) translateY(50%);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes border-flow {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+@keyframes border-orbit {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}
