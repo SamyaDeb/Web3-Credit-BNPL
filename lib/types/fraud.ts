@@ -145,3 +145,4 @@ export interface GeminiSelfieResponse {
   confidence: number;
   detailed_analysis: string;
 }
+// Enhanced fraud type definitions
