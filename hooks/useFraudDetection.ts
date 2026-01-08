@@ -135,3 +135,4 @@ export function useFraudProfile(): UseFraudProfileResult {
 
   return { getFraudProfile, isLoading, error };
 }
+// useFraudDetection hook
