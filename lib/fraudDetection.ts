@@ -516,3 +516,4 @@ function getFallbackFraudScore(loanData: LoanRequestData): FraudAnalysisResult {
     confidence: 75,
   };
 }
+// Advanced fraud scoring
