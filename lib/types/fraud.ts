@@ -146,3 +146,4 @@ export interface GeminiSelfieResponse {
   detailed_analysis: string;
 }
 // Enhanced fraud type definitions
+// Enhanced fraud type definitions
