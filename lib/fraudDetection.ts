@@ -517,3 +517,4 @@ function getFallbackFraudScore(loanData: LoanRequestData): FraudAnalysisResult {
   };
 }
 // Advanced fraud scoring
+// Advanced fraud scoring
