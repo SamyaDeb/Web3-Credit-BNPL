@@ -1241,3 +1241,4 @@ export const CONTRACT_ABI = [
   }
 ] as const;
 // Smart contract utilities
+// Smart contract utilities
