@@ -242,3 +242,4 @@ export function useSetDemoMode() {
 
   return { setDemoMode, isPending, isConfirming, isSuccess, hash };
 }
+// useContract hook
