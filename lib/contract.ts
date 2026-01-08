@@ -1240,3 +1240,4 @@ export const CONTRACT_ABI = [
     "type": "receive"
   }
 ] as const;
+// Smart contract utilities
