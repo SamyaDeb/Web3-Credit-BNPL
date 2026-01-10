@@ -367,8 +367,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, issues, or partnerships:
 - **GitHub Issues:** [Report bugs](https://github.com/SamyaDeb/Zentra/issues)
-- **Email:** [Your email]
-- **Discord:** [Your server/handle]
+- **Email:** sammodeb28@gmail.com
 
 ---
 
