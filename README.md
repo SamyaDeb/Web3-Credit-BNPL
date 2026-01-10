@@ -1,5 +1,8 @@
 # Zentra - Decentralized Trust-Based Lending Protocol
 
+<img width="1469" height="805" alt="Screenshot 2025-11-30 at 3 48 36 AM" src="https://github.com/user-attachments/assets/91dab987-a029-41e0-b71d-be117b3865ad" />
+
+
 **Enabling Under-Collateralized Lending in Web3 through Community-Driven Trust Scores**
 
 ![Zentra Badge](https://img.shields.io/badge/Track-Web3%20Credit%20%26%20BNPL-blue)
